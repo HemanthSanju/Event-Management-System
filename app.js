@@ -42,5 +42,5 @@ app.use('/public', publicRoutes);
 app.use('/auth', authRoutes);
 
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Server is running on the port ${PORT}`);
 });
